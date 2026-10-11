@@ -1,28 +1,23 @@
 # 🏦 ATM Banking System
 
-A simple and professional **ATM Banking System** built with **Python** using **Object-Oriented Programming (OOP)** and **JSON** for data storage. This project simulates basic ATM operations such as login, balance inquiry, deposit, withdrawal, PIN change, and transaction history.
-
----
+A command-line ATM Banking System built with Python using Object-Oriented Programming (OOP) and JSON for data storage. It simulates basic ATM operations such as login, balance inquiry, deposit, withdrawal, PIN change and transaction history.
 
 ## 🚀 Features
 
-* 🔐 Secure Login with Account Number & PIN
-* 💰 Check Account Balance
-* ➕ Deposit Money
-* ➖ Withdraw Money
-* 📜 Transaction History
-* 🔄 Change PIN
-* 💾 Automatic Data Saving (JSON)
-* 🧱 Object-Oriented Design
-* ⚠️ Input Validation & Error Handling
-
----
+- 🔐 Login with Account Number & PIN
+- 💰 Check account balance
+- ➕ Deposit money
+- ➖ Withdraw money
+- 📜 Transaction history
+- 🔄 Change PIN
+- 💾 Automatic data saving (JSON)
+- 🧱 Object-oriented design
+- ⚠️ Input validation & error handling
 
 ## 📁 Project Structure
 
-```text
-ATM_Banking_System/
-│
+```
+ATM/
 ├── main.py
 ├── bank.py
 ├── account.py
@@ -32,51 +27,38 @@ ATM_Banking_System/
 └── README.md
 ```
 
----
-
 ## 🛠 Technologies Used
 
-* Python 3
-* Object-Oriented Programming (OOP)
-* JSON File Handling
-* Datetime Module
-
----
+- Python 3
+- Object-Oriented Programming (OOP)
+- JSON file handling
+- Datetime module
 
 ## ▶️ How to Run
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/ATM-Banking-System.git
 ```
-
+   git clone https://github.com/biswaprakashdash03-png/ATM.git
+```
 2. Open the project folder:
-
-```bash
-cd ATM-Banking-System
 ```
-
+   cd ATM
+```
 3. Run the application:
-
-```bash
-python main.py
+```
+   python main.py
 ```
 
----
+## 🧾 Sample Accounts (for testing)
 
-## 🧾 Sample Account
-
-| Account Number | PIN  | Balance |
-| -------------- | ---- | ------: |
-| 1001           | 1234 | ₹15,000 |
-| 1002           | 5678 | ₹25,000 |
-
----
+| Account Number | PIN  | Balance  |
+|----------------|------|----------|
+| 1001           | 1234 | ₹15,000  |
+| 1002           | 5678 | ₹25,000  |
 
 ## 📌 Menu
 
-```text
+```
 =========================
       ATM BANKING
 =========================
@@ -89,46 +71,23 @@ python main.py
 6. Logout
 ```
 
----
+## 📚 What I Learned
 
-## 📚 Learning Outcomes
-
-* Python Programming
-* OOP Concepts
-* File Handling
-* JSON Data Storage
-* Exception Handling
-* Modular Programming
-
----
+- OOP concepts in Python
+- File handling and JSON data storage
+- Exception handling
+- Modular programming
 
 ## 🔮 Future Improvements
 
-* SQLite/MySQL Database
-* User Registration
-* Admin Dashboard
-* GUI using Tkinter
-* Password Hashing
-* PDF Receipt Generation
-* Email Notifications
-* REST API using FastAPI
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
+- PIN hashing for security
+- User registration
+- SQLite/MySQL database
+- GUI using Tkinter
+- Admin dashboard
+- PDF receipt generation
 
 ## 👨‍💻 Author
 
 **Biswaprakash Dash**
-
-If you like this project, don't forget to ⭐ star the repository on GitHub!
+[LinkedIn](https://www.linkedin.com/in/biswaprakash-dash-4abb9b391) | [LeetCode](https://leetcode.com/u/BiswaprakashDash)
